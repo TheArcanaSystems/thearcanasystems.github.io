@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arcana Systems | Build a business that moves like magic.</title>
+  <meta name="description" content="Notion client portals, SOP libraries, and automation-ready workflows for modern entrepreneurs." />
+  <style>
+    :root{
+      --bg:#0b0b10; --card:rgba(255,255,255,.06); --line:rgba(255,255,255,.12);
+      --text:rgba(255,255,255,.92); --muted:rgba(255,255,255,.72); --accent:rgba(180,255,232,.95);
+      --shadow:0 12px 40px rgba(0,0,0,.35); --r:18px; --max:980px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; color:var(--text);
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+      background:
+        radial-gradient(900px 600px at 20% -10%, rgba(180,255,232,.22), transparent 60%),
+        radial-gradient(800px 500px at 85% 10%, rgba(216,180,255,.16), transparent 60%),
+        var(--bg);
+    }
+    .wrap{max-width:var(--max); margin:0 auto; padding:42px 18px 60px;}
+    .card{
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, var(--card), rgba(255,255,255,.03));
+      border-radius:var(--r);
+      box-shadow:var(--shadow);
+      padding:26px;
+    }
+    .kicker{letter-spacing:.18em; text-transform:uppercase; color:rgba(255,255,255,.6); font-size:12px; display:flex; gap:10px; align-items:center;}
+    .dot{width:8px;height:8px;border-radius:50%;background:var(--accent); box-shadow:0 0 18px rgba(180,255,232,.6);}
+    h1{margin:14px 0 10px; font-size:clamp(28px,4.6vw,46px); letter-spacing:-.02em;}
+    p{margin:0 0 14px; color:var(--muted); font-size:16px; max-width:65ch;}
+    .grid{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:18px;}
+    @media (max-width:860px){.grid{grid-template-columns:1fr;}}
+    .mini{border:1px solid var(--line); border-radius:16px; padding:14px; background:rgba(255,255,255,.03);}
+    .mini b{display:block; margin-bottom:6px; letter-spacing:.06em; text-transform:uppercase; font-size:13px;}
+    .btns{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;}
+    a.btn{display:inline-flex; gap:10px; align-items:center; padding:12px 14px; border-radius:12px; border:1px solid var(--line); color:var(--text); text-decoration:none; font-weight:650; font-size:14px;}
+    a.primary{border-color:rgba(180,255,232,.35); background:rgba(180,255,232,.12);}
+    footer{margin-top:18px; padding-top:18px; border-top:1px solid var(--line); color:rgba(255,255,255,.55); font-size:13px; display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="kicker"><span class="dot"></span> Systems for modern entrepreneurs</div>
+      <h1>Build a business that moves like magic.</h1>
+      <p>
+        Arcana Systems creates automation-ready workflows that feel like a digital grimoire:
+        Notion client portals, SOP libraries, and operations that run without you babysitting them.
+      </p>
+
+      <div class="btns">
+        <a class="btn primary" href="mailto:hello@thearcanasystems.com?subject=Arcana%20Systems%20Waitlist">Join the waitlist ↗</a>
+        <a class="btn" href="mailto:hello@thearcanasystems.com?subject=Arcana%20Systems%20Inquiry">Contact ✉️</a>
+      </div>
+
+      <div class="grid">
+        <div class="mini"><b>CEO Client Portal</b>Plug-and-play onboarding that makes clients feel held.</div>
+        <div class="mini"><b>SOP Library</b>Click-by-click execution so nothing lives in your head.</div>
+        <div class="mini"><b>Automation Kits</b>Templates that keep the work moving quietly.</div>
+      </div>
+
+      <footer>
+        <div>© Arcana Systems</div>
+        <div>thearcanasystems.com</div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
